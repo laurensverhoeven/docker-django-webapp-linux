@@ -84,3 +84,8 @@ Go to https://django-test-webapp.scm.azurewebsites.net/webssh/host
 Or run this command:
     
     az webapp ssh --resource-group AppSvc-DockerTutorial-rg --name "${web_app_name}"
+
+
+## Clean up resources
+
+    az group delete --no-wait
